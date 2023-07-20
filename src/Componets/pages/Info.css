@@ -1,0 +1,45 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;;
+    height: 100vh;
+    }
+    
+    .Parent-Container{
+        background-color: rgb(8, 8, 8);
+        color: rgb(252, 242, 242);
+        
+    }
+    
+    .container{
+        box-shadow: 0px 0px 15px 10px #2b0cdf;
+        background-color: rgb(241, 230, 241);
+        width: 50%;
+        height:70vh;
+    }
+    
+    .title{
+        margin: 34px 0;
+        text-align: center;
+    }
+    
+    .labels{
+        font-size: 22px;
+        padding-left: 30px;
+        color: black;
+        text-align: justify;
+    }
+    
+    .bmi-input{
+        width: 80%;
+        height: 30px;
+    }
+    
+    .btn{
+    
+        width: 30%;
+        font-size: 1.2rem;
+        margin:20px 0 0 70px;
+    }

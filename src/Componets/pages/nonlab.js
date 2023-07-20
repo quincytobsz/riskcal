@@ -1,9 +1,11 @@
 import React from 'react';
+import './Info.css';
 
 
-function nonlabs(){
+const nonlabs=()=> {
 return (
-
+    <div className='app'>
+<div className='container'>
     <div>
     <div>
     <label className="labels">Country of Residence:</label><br />
@@ -25,6 +27,8 @@ return (
     
 </div>
 
+    </div>
+    </div>
     </div>
   );
 

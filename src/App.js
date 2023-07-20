@@ -1,35 +1,28 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './App.css';
-import './HomeItems';
-import './Componets/pages/lab'
-import './Componets/pages/nonlab'
-import img1 from './imgs/lab.png';
-import img2 from './imgs/non lab.png';
+import labImage from './imgs/lab.png';
+import nonLabImage from './imgs/non lab.png';
 import labs from './Componets/pages/lab';
+import nonlabs from './Componets/pages/nonlab';
 
-
-function App() {
+const App = () => {
   return (
-    <main>
-      <h2>Risk Calculators</h2>
-    <section className='home__container'>
- <div className='home__wrapper'>
-    <li className='home__items'>
-        <home_item/>
-         < img src={img1} alt=""/>
-         <link 
-        to= 'src/components/pages/labs.js'
-        className='home_items'
-        onClick={labs}>
-       </link>
-        
-        <home_item/>
-        < img src={img2} alt=""
-        path='src/Componets/pages/nonlabs.js'/>
-        </li>
-   </div>
-   </section>  
-    </main>
+    <div>
+      <h1>WHO Risk Calculator</h1>
+      <Router>
+        <div className='img'>
+          <div className='img1'>
+            <Route path="/labs" component={labs} />
+            <img src={labImage} alt="Lab" />
+          </div>
+          <div className='img2'>
+            <Route path="/nonlabs" component={nonlabs} />
+            <img src={nonLabImage} alt="Non Lab" />
+          </div>
+        </div>
+      </Router>
+    </div>
   );
 }
 

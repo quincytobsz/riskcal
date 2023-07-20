@@ -1,6 +1,7 @@
 import '../Componets/BMI.css';
 import React, {useState} from "react";
 import { useCallback } from "react";
+
 function BMI() {
 
     const[age, setAge] = useState()
