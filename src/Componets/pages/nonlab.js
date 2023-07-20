@@ -1,5 +1,5 @@
 import React from 'react';
-import BMI from './Componets/BMI';
+
 
 function nonlabs(){
 return (
@@ -21,7 +21,8 @@ return (
     <label className="labels">Systolic BP:</label><br />
 </div>
 <div>
-    <label className="labels">BMI:</label><br />
+    <label className="labels">BMI:</label>   <br />
+    
 </div>
 
     </div>

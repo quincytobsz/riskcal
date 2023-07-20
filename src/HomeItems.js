@@ -1,9 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {Link} from 'react';
 
 function homeitem(props){
     return(
-        <>
+        
         <li className='home_item'>
             <Link className='home_item_link' to={props.path}>
                 <figure className='home_item_pic-wrap' data-category={props.label}>
@@ -15,7 +15,7 @@ function homeitem(props){
                 </figure>
             </Link>
         </li>
-        </>
+        
     )
 }
 
