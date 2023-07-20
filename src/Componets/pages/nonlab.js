@@ -2,7 +2,7 @@ import React from 'react';
 import './Info.css';
 
 
-const nonlabs=()=> {
+function nonlabs() {
 return (
     <div className='app'>
 <div className='container'>

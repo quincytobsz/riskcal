@@ -14,6 +14,8 @@ h1 {
 .img1,
 .img2 {
   margin: 0 20px;
+  width: 200px;
+  height: 00px;
 }
 
 img {

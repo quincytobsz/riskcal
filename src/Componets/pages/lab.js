@@ -2,7 +2,7 @@ import React from 'react';
 import './Info.css';
 
 
-const labs=()=>{
+function labs(){
 return (
 
         <div className='app'>
@@ -10,6 +10,7 @@ return (
     <div>
         <div>
     <label className="labels">Country of Residence:</label><br />
+    
 </div>
   <div>
   <label className="labels">Age:</label><br />
