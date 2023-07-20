@@ -1,74 +1,25 @@
-
-*{
-    margin: auto;
-    padding: auto;
-    
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-
-.img{
-    display: inline-flex;
-    flex:1;
-    margin: relative;
-    border-radius: 10px;
-   
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
 }
-.img1 {
-    background-image: url('./imgs/lab.png');
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-   
-  }
-  
+
+.img1,
 .img2 {
-    background-image: url('./imgs/non lab.png');
-    background-size: cover;
-    width: 300px;
-    height: 200px;
-  }
-.app{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 70%;;
-height: 100vh;
+  margin: 0 20px;
 }
 
-.Parent-Container{
-    background-color: rgb(8, 8, 8);
-    color: rgb(252, 242, 242);
-    
-}
-
-.container{
-    box-shadow: 0px 0px 15px 10px #2b0cdf;
-    background-color: rgb(241, 230, 241);
-    width: 50%;
-    height:70vh;
-}
-
-.title{
-    margin: 34px 0;
-    text-align: center;
-}
-
-.labels{
-    font-size: 22px;
-    padding-left: 30px;
-    color: black;
-    text-align: justify;
-}
-
-.bmi-input{
-    width: 80%;
-    height: 30px;
-}
-
-.btn{
-
-    width: 30%;
-    font-size: 1.2rem;
-    margin:20px 0 0 70px;
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
