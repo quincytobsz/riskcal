@@ -1,17 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import '../App.css';
-import labImage from '../imgs/lab.jpg';
-import nonLabImage from '../imgs/non lab.jpg';
-import labs from './pages/lab';
-import nonlabs from './pages/nonlab';
+import './App.css';
+import labImage from './imgs/lab.jpg';
+import nonLabImage from './imgs/non lab.jpg';
+import labs from './Componets/pages/lab';
+import nonlabs from './Componets/pages/nonlab';
 
 function home() {
   return (
     <div>
-      <h1>WHO Risk Calculator</h1>
     <Router>
-        <div className='img'>
+        <div className='image-container img'>
           <div className='img1'>
             <Route path="/labs" component={labs} />
             <img src={labImage} alt="Lab" />

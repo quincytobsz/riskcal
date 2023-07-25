@@ -2,10 +2,8 @@ import React from 'react';
 import './Info.css';
 
 
-function labs(){
+function lab(){
 return (
-
-        <div className='app'>
 <div className='container'>
     <div>
         <div>
@@ -36,4 +34,4 @@ return (
   )
 
 }
-export default labs;
+export default lab;
