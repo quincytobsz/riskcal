@@ -4,6 +4,9 @@ import image1 from'./imgs/lab.jpg';
 import image2 from'./imgs/non lab.jpg';
 import { Link } from 'react-router-dom';
 
+
+
+
 function App() {
   return (
     <div className="App">
@@ -11,11 +14,11 @@ function App() {
         <h1>WHO Risk Calculator</h1>
       </header>
       <div className='link-container'>
-      <Link className='link-container a' to="./componets/pages/lab">
+      <Link className='link-container a' to='src/Componets/pages/lab.js'>
           lab
         </Link>
         
-        <Link className='link-container a' to="./componets/pages/nonlab">
+        <Link className='link-container a' to='./Componets/pages/nonlab.js'>
           nonlab
         </Link>
         </div>
@@ -23,7 +26,9 @@ function App() {
         <img src={image1} alt="lab" />
       <img src={image2} alt="nonlab" />
         </div>
+        
     </div>
+    
   );
 }
 

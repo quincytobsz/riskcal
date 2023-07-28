@@ -1,9 +1,18 @@
-import React from 'react';
-import './Info.css';
+import React,{useState} from 'react';
+import '../Info.css';
 
 
-function lab(){
+
+
+
+function lab(){ const [inputValue, setInputValue] = useState('');
+
+const handleInputChange = (e) => {
+  setInputValue(e.target.value);
+};
 return (
+
+        <div className='App'>
 <div className='container'>
     <div>
         <div>
