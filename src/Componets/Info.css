@@ -1,24 +1,37 @@
-.App{
-    text-align: center;
+body {font-family: Arial, Helvetica, sans-serif;}
+.lab{box-sizing: border-box;}
+
+  .form-inline {  
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
   }
-  
-  .App-header {
-    background-color: #282c34;
-    padding: 20px;
+
+  .form-inline label {
+    margin: 5px 10px 5px 0;
+  }
+
+  .form-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  .button-section {
+    margin: 3%;
+  }
+  .button {
+    padding: 10px 20px;
+    background-color: dodgerblue;
+    border: 1px solid #ddd;
     color: white;
+    cursor: pointer;
   }
+
+  .button:hover {
+    background-color: royalblue;
+  }
+
   
-.container {
-    width: auto;
-    height: auto;
-  }
-  
-  .labels {
-    font-size: 22px;
-    padding-left: 30px;
-    color: black;
-    text-align: justify;
- 
-  }
-    
-    
