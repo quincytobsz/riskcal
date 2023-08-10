@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    width: 50vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+
+.subtext{
+    font-size: 10pt;
+    color: gray;
+    font-style: italic;
+}
+
+.default-look{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    width: 300px;
+    margin: 10px;
+}
